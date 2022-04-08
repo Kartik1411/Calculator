@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+.calc-wrapper {
+    margin: 20px auto;
+    width: 400px;
+    border: 1px solid #cb7272;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #c5b3b3;
+}
+
+.row {
+    display: flex;
+}
