@@ -14,18 +14,14 @@ function MainGrid() {
         }
 
         setCalc(calc + value);
-        // console.log('calc: ', calc);
 
         if(!operations.includes(value)){
-            // console.log('calc + value: ', calc + value);
             setResult(eval(calc + value).toString());
         }
     }
 
     const calculateOnEqualsTo = () => {
-
         setCalc(eval(calc).toString());
-        // console.log('calc: ', calc);
     }
 
     const AC = () => {
